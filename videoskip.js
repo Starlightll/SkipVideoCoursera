@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     
     function SkipVideo() {
-        let buttons = document.getElementsByClassName("css-f0pscy");
+        let buttons = document.getElementsByClassName("css-4a32g3");
         if (buttons.length > 1) {
             buttons[1].click();
         } else {

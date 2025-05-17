@@ -21,7 +21,7 @@ document.getElementById("myButton").addEventListener("click", function () {
               var remainingTime = duration - currentTime;
               for (i = 0; i < remainingTime - 0.1*remainingTime; i += 10) {
                 // console.log(i);
-                let buttons = document.getElementsByClassName("css-f0pscy");
+                let buttons = document.getElementsByClassName("css-4a32g3");
                 if (buttons.length > 1) {
                   buttons[1].click();
                 } else {
